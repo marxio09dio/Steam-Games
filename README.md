@@ -36,8 +36,6 @@ The APPs on the final dataset are:
 
 [![Matplotlib](https://user-images.githubusercontent.com/38763806/216395946-bcf5ef6e-0524-44b2-8a41-6eb47920501a.png)](https://matplotlib.org/)
 
-[![BeautifulSoup](https://user-images.githubusercontent.com/38763806/216395555-865b6975-0fc1-40ca-8fd5-45e46dc84a25.png)](https://pypi.org/project/beautifulsoup4/)
-
 [![Microsoft Excel](https://user-images.githubusercontent.com/38763806/216391933-98c1e138-27dc-4d61-89cb-fb25ba0a5e04.png)](https://www.microsoft.com/microsoft-365/excel)
 
 [![Power BI](https://user-images.githubusercontent.com/38763806/216396186-e882a672-6296-48a5-a168-13f4c1dcb082.png)](https://powerbi.microsoft.com/)
