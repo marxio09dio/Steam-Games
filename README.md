@@ -10,6 +10,8 @@ The goal of this project is to provide insights on the state of the Steam Store 
 
 The APPs on the final dataset are: 
 - Games present up to the date the data was fetched (07/06/2023)
+- Prices are in Euros, conversation rate used was the on 17/06/2023
+- Promotion Prices are also as of the same day
 - App that has "Game" category
 - Games with no name and released date were removed
 - Games with unknown release date were removed
