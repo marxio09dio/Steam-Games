@@ -1,35 +1,26 @@
 # Steam Store Games
 ## _What makes a game succeed in the Steam Store_
 
+The goal of this project is to provide insights on the state of the Steam Store for a game developer to make informed decisions about what type of game they should create.
+
 
 - Aggregated data sources:
-  - Accidents and Incidents data: [http://www.planecrashinfo.com/database.htm](https://api.steampowered.com/ISteamApps/GetAppList/v2/)
-  - Geo Location data: https://en.wikipedia.org/wiki/List_of_accidents_and_incidents_involving_commercial_aircraft
+  - App IDs: https://api.steampowered.com/ISteamApps/GetAppList/v2/
+  - Game Data: https://store.steampowered.com/api/appdetails/?appids=
 
-The Accidents and Incidents on the dataset are: 
-- All civil and commercial aviation accidents of scheduled and non-scheduled passenger airliners worldwide, which resulted in a fatality (including all U.S. Part 121 and Part 135 fatal accidents)
-- All cargo, positioning, ferry and test flight fatal accidents.
-- All military transport accidents with 10 or more fatalities.
-- All commercial and military helicopter accidents with greater than 10 fatalities.
-- All civil and military airship accidents involving fatalities.
-- Aviation accidents involving the death of famous people.
-- Aviation accidents or incidents of noteworthy interest.
-
-**Midair collisions are aggredated by "/" for example, Aircraft 1 / Aircraft 2** 
-
-**Location of Events are approximated, from the dataset, only 13,58% is known**
+The APPs on the final dataset are: 
+- Games present up to the date the data was fetched (07/06/2023)
+- App that has "Game" category
+- Games with no name and released date were removed
+- Games with unknown release date were removed
 
 ## Methodogy
 
-- Data Scraped from http://www.planecrashinfo.com/database.htm
-- Data extracted cleaned and reorganized
-- Geo Location Data scraped from https://en.wikipedia.org/wiki/List_of_accidents_and_incidents_involving_commercial_aircraft
-- Geo Data appended to the main dataset
-- Due to multiple spelling errors from the original source, manual cleaning had to be in Excel
+- Apps IDs were obtained, then used to get the relevant details from the Steam Store
+- Data extracted cleaned and reorganized using Pandas and with VBA
 - Exploratory Analyses performed to assist in Data Visualisation
 - Dashboard Creation
 
-### [Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZjAxYmRhYjgtZDE5MC00Yjg1LTk5MjEtYTEwYjk1NjJhNDQ4IiwidCI6IjVlZWVhZDE1LTY3MmQtNDZkMS04ZjM1LTlhZGM0MDU3YmJhNiIsImMiOjl9)
 
 ## Tech Used
 
@@ -48,12 +39,3 @@ The Accidents and Incidents on the dataset are:
 [![Microsoft Excel](https://user-images.githubusercontent.com/38763806/216391933-98c1e138-27dc-4d61-89cb-fb25ba0a5e04.png)](https://www.microsoft.com/microsoft-365/excel)
 
 [![Power BI](https://user-images.githubusercontent.com/38763806/216396186-e882a672-6296-48a5-a168-13f4c1dcb082.png)](https://powerbi.microsoft.com/)
-
-## Acknowledgements
-
-- Wikipedia for the geolacation data.
-- Richard Kebabjian, owner of http://www.planecrashinfo.com/index.html, for the permission of using his data.
-
-## Feedback
-
-Any feedback for improving the Dashboard or any other file is welcomed 
