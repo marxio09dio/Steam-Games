@@ -7,6 +7,7 @@ The goal of this project is to provide insights on the state of the Steam Store 
 - Aggregated data sources:
   - App IDs: https://api.steampowered.com/ISteamApps/GetAppList/v2/
   - Game Data: https://store.steampowered.com/api/appdetails/?appids=
+  - Comments, Peak Players: https://steamspy.com/api.php
 
 The APPs on the final dataset are: 
 - Games present up to the date the data was fetched (07/06/2023)
