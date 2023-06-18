@@ -1,26 +1,26 @@
 # Steam Store Games
 ## _What makes a game succeed in the Steam Store_
 
-The goal of this project is to provide insights on the state of the Steam Store for a game developer to make informed decisions about what type of game they should create.
+This project aims to provide insights into the state of the Steam Store for game developers to make informed decisions about what type of game they should create.
 
 
 - Aggregated data sources:
   - App IDs: https://api.steampowered.com/ISteamApps/GetAppList/v2/
   - Game Data: https://store.steampowered.com/api/appdetails/?appids=
-  - Comments, Peak Players: https://steamspy.com/api.php
+  - Reviews, Peak Players: https://steamspy.com/api.php
 
 The APPs on the final dataset are: 
 - Games present up to the date the data was fetched (07/06/2023)
-- Prices are in Euros, conversation rate used was the on 17/06/2023
+- Prices are in Euros, the conversion rate used was on 17/06/2023
 - Promotion Prices are also as of the same day
-- App that has "Game" category
-- Games with no name and released date were removed
-- Games with unknown release date were removed
+- App that has a "Game" category
+- Games with no name and release date were removed
+- Games with unknown release dates were removed
 
 ## Methodogy
 
-- Apps IDs were obtained, then used to get the relevant details from the Steam Store
-- Data extracted cleaned and reorganized using Pandas and with VBA
+- Apps IDs were obtained and then used to get the relevant details from the Steam Store
+- Data extracted cleaned and reorganized using Pandas and VBA
 - Exploratory Analyses performed to assist in Data Visualisation
 - Dashboard Creation
 
